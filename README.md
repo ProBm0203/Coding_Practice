@@ -12,7 +12,7 @@ It would be great if anyone can join me, so feel free to make your pull requests
     3. add upstream for your local repository
     	#git remote add upstream https://github.com/ProBm0203/Coding_Practice.git
     4. get the newest version of this repository
-    	#git pull upstream master
+    	#git pull upstream main
     5. add new branch for your changes/codes/anything
     	#git checkout -b your-branch
     6. do whatever you want to:
@@ -22,9 +22,9 @@ It would be great if anyone can join me, so feel free to make your pull requests
     	d. any advices 
     7. get the newest version of this repository
     	#git checkout master
-    	#git pull upstream master
+    	#git pull upstream main
     	#git checkout your-branch
-    	#git rebase master
+    	#git rebase main
     8. commit your changes
     	#git add ...
     	#git commit ...
