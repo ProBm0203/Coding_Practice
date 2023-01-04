@@ -3,9 +3,9 @@ To improve my coding skills, I did a little practice in a few websites (HackerRa
 
 <h2>Table of contents:</h2>
 
-    - <a href="https://github.com/ProBm0203/Coding_Practice/tree/main/fundamentals">Fundamentals</a>
-    - <a href="">List_Manipulation</a>
-    - <a href="">String_Manipulation</a>
+    - Fundamentals
+    - List_Manipulation
+    - String_Manipulation
 
 
 <h2>How to contribute</h2>  
