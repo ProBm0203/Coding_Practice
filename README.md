@@ -2,9 +2,10 @@
 To improve my coding skills, I did a little practice in a few websites (HackerRank, codility, leetcode, ...). The main reason for creating this repo is that I want to record all the "mind workings" in this process.The coding is actually done in python, but you can add your solution or suggestions in any language.
 
 <h2>Table of contents:</h2>
-- Fundamentals
-- List_Manipulation
-- String_Manipulation
+
+    - <a href="https://github.com/ProBm0203/Coding_Practice/tree/main/fundamentals">Fundamentals</a>
+    - <a href="">List_Manipulation</a>
+    - <a href="">String_Manipulation</a>
 
 
 <h2>How to contribute</h2>  
