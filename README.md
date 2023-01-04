@@ -2,9 +2,9 @@
 To improve my coding skills, I did a little practice in a few websites (codility, leetcode, ...). The main reason for creating this repo is that I want to record all the "mind workings" in this process. 
 
 
-<h4>How to contribute</h4>  
-It would be great if anyone can join me, so feel free to make your pull requests to this repository.  
-######What you need to do is quite simple, such as:  
+<h2>How to contribute</h2>  
+It would be great if anyone can join me, so feel free to make your pull requests to this repository.
+<h3>What you need to do is quite simple, such as:</h3>  
 
     1. fork this repository to your own github;
     2. clone your forked repository to local;
