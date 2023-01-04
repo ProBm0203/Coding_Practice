@@ -1,5 +1,10 @@
 <h1>Coding_Practice</h1>
-To improve my coding skills, I did a little practice in a few websites (codility, leetcode, ...). The main reason for creating this repo is that I want to record all the "mind workings" in this process. 
+To improve my coding skills, I did a little practice in a few websites (HackerRank, codility, leetcode, ...). The main reason for creating this repo is that I want to record all the "mind workings" in this process.The coding is actually done in python, but you can add your solution or suggestions in any language.
+
+<h2>Table of contents:</h2>
+- Fundamentals
+- List_Manipulation
+- String_Manipulation
 
 
 <h2>How to contribute</h2>  
