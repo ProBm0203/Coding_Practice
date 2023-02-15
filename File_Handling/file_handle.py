@@ -1,3 +1,13 @@
+'''WAP to read a file and 
+
+a. Print the total number of characters, words and lines in the file. 
+
+b. Calculate the frequency of each character in the file. Use a variable of dictionary type to maintain the count. 
+
+c. Print the words in reverse order. 
+
+d. Copy even lines of the file to a file named ‘File1’ and odd lines to another file named ‘File2’.'''
+
 def totalCWL():
     num_words=0
     characters=0
@@ -54,6 +64,7 @@ def copyEvenLines():
     print(f"\nThe content of file2 containing even line is :\n{content}")
 
 
+print("---------------------------------\n     Author : Bhaskar Mishra     \n---------------------------------")
 totalCWL()
 frequency_c()
 copyEvenLines()
