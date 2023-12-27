@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form into TableForm</title>
+    <style>
+        body {
+            color: maroon;
+        }
+
+        th {
+            font-size: 30px;
+            background-color: lightblue;
+            color: maroon;
+        }
+
+        td {
+            background-color: lightblue;
+        }
+
+        * {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table border="5">
+            <tr>
+                <th colspan="2">
+                    Registration Form
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Enter Name:
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age:
+                </td>
+                <td>
+                    <input type="text" maxlength="2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Intersted in
+                </td>
+                <td>
+                    <input type="checkbox" name="Animal1" id="">
+                    Dogs
+                    <input type="checkbox" name="Animal2" id="">
+                    Cats
+                    <input type="checkbox" name="Animal3" id="">
+                    Birds
+                    <input type="checkbox" name="Animal4" id="">
+                    Bees
+                    <input type="checkbox" name="Animal5" id="">
+                    others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email Password
+                </td>
+                <td>
+                    <input type="password" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Are you an animal lover:
+                </td>
+                <td>
+                    <input type="radio" name="YesorNo" id="" checked="True">
+                    Yes
+
+                    <input type="radio" name="YesorNo" id="">
+                    No
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    If Yes, Which Animal Do You Have:
+                </td>
+                <td>
+                    <select>
+                        <option value="Dogs">Dogs</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Rabbit">Rabbit</option>
+                        <option value="Squirrel">Squirrel</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                        <center>
+                            <input type="submit" value="Submit">
+                            <input type="reset">
+                        </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

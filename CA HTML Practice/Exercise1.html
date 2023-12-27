@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Exercise 1 - HTML Form</title>
+	<style>
+		table{
+			margin: auto;
+		}
+		th {
+			font-size: 30px;
+			background-color: #FFA;
+			color: red;
+		}
+
+		td {
+			padding: 2px 15px;
+			background-color: #0CF;
+		}
+
+		* {
+			font-size: 16px;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="exercise1.php" method="post">
+		<table border="3" cellspacing="5px">
+			<tr>
+				<th colspan="2"> Registration Form </th>
+			</tr>
+			<tr>
+				<td>Enter Name</td>
+				<td> <input name="Name" type="text" /> </td>
+			</tr>
+			<tr>
+				<td>Enter Password</td>
+				<td><input type="password" /></td>
+			</tr>
+
+			<tr>
+				<td>Enter Address</td>
+				<td><textarea rows="3" name="address"></textarea></td>
+			</tr>
+
+			<tr>
+				<td>Select Game</td>
+				<td>
+					<input type="checkbox" name="sports[]" value="Hockey" />Hockey <br />
+					<input type="checkbox" name="sports[]" value="Football" />Football<br />
+					<input type="checkbox" name="sports[]" value="Badminton" />Badminton<br />
+					<input type="checkbox" name="sports[]" value="Cricket" />Cricket<br />
+					<input type="checkbox" name="sports[]" value="Volleyball" />Volleyball
+				</td>
+			</tr>
+
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender" value="Male" checked="true" /> Male <!-- Added values for radio buttons -->
+					<input type="radio" name="gender" value="Female" /> Female
+				</td>
+			</tr>
+
+			<tr>
+				<td>Select your age</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>More than 22</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Select Photo</td> <!--We can use the input type file to upload file to the form-->
+				<td><input type="file" />
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<input type="button" value="Click Me" style="width:33%; height:40px;" /> <!--This is just a normal button in which we can give the name using the value attribute of the input tag-->
+					<input type="reset" style="width:32%; height:40px;" /> <!--This resets the form, removing all the values-->
+					<input type="submit" value="Submit Form" style="width:33%; height:40px;" /> <!--This button submits all the values entered in the form-->
+				</td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+
+</html>
