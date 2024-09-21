@@ -1,5 +1,5 @@
 ## Coding Practice 🎯🚀
----
+
 To improve my coding skills, I practiced on various websites like HackerRank, Codility, LeetCode, and more. The main reason for creating this repository is to document all the "mind workings" during this process. The coding is primarily done in Python, but you are welcome to add your solutions or suggestions in any language.
 
 ### Table of Contents 📋
@@ -52,3 +52,4 @@ It would be great if anyone could join me, so feel free to make your pull reques
     ```
 9. Go to GitHub to make your pull request.
 
+---
