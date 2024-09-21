@@ -14,25 +14,37 @@ It would be great if anyone can join me, so feel free to make your pull requests
 
     1. fork this repository to your own github;
     2. clone your forked repository to local;
-        #git clone the-name-of-your-forked-repository
+		```bash
+        git clone the-name-of-your-forked-repository
+		```
     3. add upstream for your local repository
-    	#git remote add upstream https://github.com/ProBm0203/Coding_Practice.git
+		```bash
+    	git remote add upstream https://github.com/ProBm0203/Coding_Practice.git
+		```
     4. get the newest version of this repository
-    	#git pull upstream main
+		```bash
+    	git pull upstream main
+		```
     5. add new branch for your changes/codes/anything
-    	#git checkout -b your-branch
+		```bash
+    	git checkout -b your-branch
+		```
     6. do whatever you want to:
     	a. fix bugs
     	b. add new website to pratice coding
     	c. use new language to solve problems
     	d. any advices 
     7. get the newest version of this repository
-    	#git checkout master
-    	#git pull upstream main
-    	#git checkout your-branch
-    	#git rebase main
+	```bash
+    	git checkout master
+    	git pull upstream main
+    	git checkout your-branch
+    	git rebase main
+	```
     8. commit your changes
-    	#git add ...
-    	#git commit ...
-    	#git push origin your-branch
+	```bash
+    	git add ...
+    	git commit ...
+    	git push origin your-branch
+	```
     9. go to the github.com to make your pull request
