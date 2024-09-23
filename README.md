@@ -4,8 +4,11 @@ To improve my coding skills, I practiced on various websites like HackerRank, Co
 
 ### Table of Contents 📋
 
+- CA HTML Practice
+- File Handling
 - Fundamentals
 - List Manipulation
+- Multiple Concepts
 - String Manipulation
 
 ### How to Contribute 👥
